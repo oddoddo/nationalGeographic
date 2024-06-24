@@ -273,15 +273,27 @@ legend {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 1001;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   width: auto;
   height: 335px;
-  margin: 0 60px;
-  padding: 40px 0 30px;
+  padding: 40px 60px 30px;
   color: #1b1c1e;
+}
+#header.active {
+  height: 100px;
+  background: #fff;
+}
+#header.active #logo {
+  font-size: 2rem;
+}
+#header.active #logo br {
+  display: none;
+}
+#header.active h3 {
+  display: none;
 }
 #header #logo {
   font-family: "Yeseva One", serif;
@@ -289,6 +301,7 @@ legend {
   font-style: normal;
   font-size: 9.0625rem;
   line-height: 90%;
+  transition: all 1s;
 }
 #header #gnb {
   display: flex;
@@ -409,13 +422,13 @@ legend {
   height: 945px;
 }
 #main .sec01 .bg-sea {
-  width: 1822px;
+  width: 96%;
 }
 #main .sec01 .whale-sea {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -65%);
+  margin: -572px 0 0 -584px;
 }
 #main .sec02 {
   height: 1005px;
@@ -840,7 +853,7 @@ legend {
   justify-content: space-between;
   width: calc(33.333% - 20px);
   height: 430px;
-  border: 1px solid #7A7A7A;
+  border: 1px solid #7a7a7a;
   border-radius: 15px;
 }
 #main .sec06 .container-type ul li .sec-img {
@@ -864,7 +877,7 @@ legend {
 #main .sec06 .container-type ul li .sec-ft {
   display: flex;
   gap: 10px;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 #main .sec07 {
   position: relative;
