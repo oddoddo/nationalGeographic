@@ -1,3 +1,4 @@
+// sec01
 gsap.to('.whale-sea img', {
   y: -100, // y축 방향으로 이동
   duration: 2, // 애니메이션 지속시간
@@ -5,8 +6,12 @@ gsap.to('.whale-sea img', {
   yoyo: true, // 애니메이션을 왕복
   repeat: -1, // 무한 반복
 });
-// sec01
 
+
+
+
+
+// sec02
 
 
 
@@ -50,4 +55,4 @@ var swiper = new Swiper('.sec02-slide2', {
     prevEl: '.swiper-button-prev',
   },
 });
-// sec02
+
